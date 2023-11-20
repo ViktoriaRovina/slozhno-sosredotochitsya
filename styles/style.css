@@ -57,7 +57,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
 }
 
 .link:focus {
@@ -113,6 +113,10 @@
 .title-decor {
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
+}
+
+.title-normal {
+  font-weight: normal;
 }
 
 .section {
